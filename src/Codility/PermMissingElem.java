@@ -19,6 +19,7 @@ public class PermMissingElem {
         int j = 0;
         Arrays.sort(A);
         int currNumber = A[0];
+        // gets the missing number of a number sequence in an array
         while (currNumber < A.length+1) {
             if (A[j] < 1 || A[j] > A.length+1) return 0;
 
