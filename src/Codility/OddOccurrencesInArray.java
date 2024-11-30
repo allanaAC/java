@@ -26,7 +26,7 @@ public class OddOccurrencesInArray {
                 return 0;
             }
             if(mapping.containsKey(A[i])) {
-                mapping.get(A[i]);
+                //mapping.get(A[i]);
                 mapping.put(A[i], true);
             } else {
                 mapping.put(A[i], false);
